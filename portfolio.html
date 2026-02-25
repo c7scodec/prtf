@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cenk Altınay - CFD ve SolidWorks Projeleri">
+    <title>Projeler | Cenk Altınay</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>Cenk Altınay</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="about.html">Hakkımda</a></li>
+                <li><a href="portfolio.html" class="active">Projeler</a></li>
+                <li><a href="contact.html">İletişim</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="hero" style="padding: 8rem 0 6rem;">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title" style="font-size: 4rem;">
+                    <span class="gradient-text">PROJELERİM</span>
+                </h1>
+                <p class="hero-subtitle">CFD analizi ve SolidWorks tasarım çalışmaları</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Tabs -->
+    <section class="services-section">
+        <div class="container">
+            
+            <!-- Tab Navigation -->
+            <div class="portfolio-tabs">
+                <button class="tab-btn active" data-tab="cfd">
+                    <span class="tab-icon">🔥</span>
+                    <span>CFD Projeleri</span>
+                </button>
+                <button class="tab-btn" data-tab="solidworks">
+                    <span class="tab-icon">📐</span>
+                    <span>SolidWorks Tasarımları</span>
+                </button>
+            </div>
+
+            <!-- CFD Projects Tab -->
+            <div class="tab-content active" id="tab-cfd">
+                
+                <!-- Project 1: Multi-Analysis Project (velocity1, temperature1, soot1) -->
+                <div class="project-card-modern">
+                    <div class="project-header">
+                        <div class="project-badges">
+                            <span class="project-badge badge-cfd">CFD Analiz</span>
+                            <span class="std-badge">NFPA 130</span>
+                            <span class="std-badge">NFPA 92</span>
+                            <span class="std-badge">BS 7346</span>
+                        </div>
+                        <h2>Kapalı Otopark Yangın Simülasyonu</h2>
+                    </div>
+                    
+                    <p class="project-description">Kapalı otopark için kapsamlı CFD analizi. Hız alanı, sıcaklık dağılımı ve duman yoğunluğu analizleri ile jet fan sistemi performans doğrulaması.</p>
+
+                    <div class="project-media-grid">
+                        <figure class="project-media">
+                            <video controls preload="metadata" playsinline 
+                                   aria-label="Otopark hız alanı CFD analizi"
+                                   title="Velocity Analizi">
+                                <source src="velocity1.mp4" type="video/mp4">
+                                Tarayıcınız video etiketini desteklemiyor.
+                            </video>
+                            <figcaption>Hız Alanı Analizi – Jet fan performansı ve hava akışı dağılımı</figcaption>
+                        </figure>
+                        <figure class="project-media">
+                            <video controls preload="metadata" playsinline 
+                                   aria-label="Otopark yangın simülasyonu sıcaklık analizi"
+                                   title="Temperature Analizi">
+                                <source src="temperature1.mp4" type="video/mp4">
+                                Tarayıcınız video etiketini desteklemiyor.
+                            </video>
+                            <figcaption>Sıcaklık Dağılımı – Yangın senaryosu ısı yayılımı</figcaption>
+                        </figure>
+                        <figure class="project-media">
+                            <video controls preload="metadata" playsinline 
+                                   aria-label="Duman yoğunluğu analizi"
+                                   title="Soot Density">
+                                <source src="soot1.mp4" type="video/mp4">
+                                Tarayıcınız video etiketini desteklemiyor.
+                            </video>
+                            <figcaption>Duman Yoğunluğu (Soot) – Çoklu kat dağılımı</figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <!-- Project 2: Comprehensive Analysis (soot2, velocity3) -->
+                <div class="project-card-modern">
+                    <div class="project-header">
+                        <div class="project-badges">
+                            <span class="project-badge badge-validation">Performans Doğrulama</span>
+                            <span class="std-badge">NFPA 92</span>
+                            <span class="std-badge">TS EN 12101</span>
+                        </div>
+                        <h2>Otopark Yangın Güvenlik Analizi</h2>
+                    </div>
+                    
+                    <p class="project-description">Otopark yangın senaryosu için duman yoğunluğu ve hız alanı analizleri. Sistem performans değerlendirmesi.</p>
+
+                    <div class="project-media-grid">
+                        <figure class="project-media">
+                            <video controls preload="metadata" playsinline 
+                                   aria-label="Duman yoğunluğu soot analizi"
+                                   title="Soot Density Analysis">
+                                <source src="soot2.mp4" type="video/mp4">
+                                Tarayıcınız video etiketini desteklemiyor.
+                            </video>
+                            <figcaption>Duman Yoğunluğu – Soot konsantrasyonu analizi</figcaption>
+                        </figure>
+                        <figure class="project-media">
+                            <video controls preload="metadata" playsinline 
+                                   aria-label="Velocity field kompakt analiz"
+                                   title="Compact Velocity Analysis">
+                                <source src="velocity3.mp4" type="video/mp4">
+                                Tarayıcınız video etiketini desteklemiyor.
+                            </video>
+                            <figcaption>Velocity Field – Kompakt hız alanı gösterimi</figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <!-- Project 3: Dual Parameter Analysis (temperature2, velocity2, soot3) -->
+                <div class="project-card-modern">
+                    <div class="project-header">
+                        <div class="project-badges">
+                            <span class="project-badge badge-full">Tam Proje</span>
+                            <span class="std-badge">NFPA 130</span>
+                            <span class="std-badge">NFPA 92</span>
+                            <span class="std-badge">NFPA 204</span>
+                        </div>
+                        <h2>Çok Katlı Otopark CFD Analizi</h2>
+                    </div>
+                    
+                    <p class="project-description">Çok katlı otopark projesi için sıcaklık dağılımı, hız alanı ve duman yoğunluğu analizleri. Jet fan yerleşim optimizasyonu.</p>
+
+                    <div class="project-media-grid">
+                        <figure class="project-media">
+                            <video controls preload="metadata" playsinline 
+                                   aria-label="Otopark temperature dağılımı"
+                                   title="Temperature Distribution">
+                                <source src="temperature2.mp4" type="video/mp4">
+                                Tarayıcınız video etiketini desteklemiyor.
+                            </video>
+                            <figcaption>Sıcaklık Dağılımı – Zaman bazlı ısı yayılımı</figcaption>
+                        </figure>
+                        <figure class="project-media">
+                            <video controls preload="metadata" playsinline 
+                                   aria-label="Velocity magnitude analizi"
+                                   title="Velocity Magnitude">
+                                <source src="velocity2.mp4" type="video/mp4">
+                                Tarayıcınız video etiketini desteklemiyor.
+                            </video>
+                            <figcaption>Velocity Magnitude – Hava hızı dağılımı animasyonu</figcaption>
+                        </figure>
+                        <figure class="project-media">
+                            <video controls preload="metadata" playsinline 
+                                   aria-label="Soot dağılımı detaylı analiz"
+                                   title="Detailed Soot Distribution">
+                                <source src="soot3.mp4" type="video/mp4">
+                                Tarayıcınız video etiketini desteklemiyor.
+                            </video>
+                            <figcaption>Soot Dağılımı – Detaylı duman yoğunluğu haritası</figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- SolidWorks Projects Tab -->
+            <div class="tab-content" id="tab-solidworks">
+                
+                <!-- Placeholder: Pool Dehumidifier -->
+                <div class="project-card-modern">
+                    <div class="project-header">
+                        <div class="project-badges">
+                            <span class="project-badge badge-design">Tasarım</span>
+                            <span class="project-badge badge-hvac">İklimlendirme</span>
+                        </div>
+                        <h2>Havuz Nem Alma Ünitesi</h2>
+                    </div>
+                    
+                    <p class="project-description">Endüstriyel havuzlar için özel tasarım nem alma ünitesi. SolidWorks ile tam montaj tasarımı, sheet metal parçalar ve üretim çizimleri.</p>
+
+                    <div class="project-media-grid">
+                        <figure class="project-media">
+                            <img src="nem-alma-cad.png" 
+                                 loading="lazy" 
+                                 alt="Havuz nem alma santralı SolidWorks CAD tasarımı - Modüler paneller, fan bölümü">
+                            <figcaption>SolidWorks CAD Tasarım – Havuz nem alma 3D modeli</figcaption>
+                        </figure>
+                        <figure class="project-media">
+                            <img src="nem-alma-santrali.jpg" 
+                                 loading="lazy" 
+                                 alt="Point marka havuz nem alma santralı - Beyaz modüler tasarım, cam panelli kontrol sistemi">
+                            <figcaption>Üretilmiş Ürün – Havuz nem alma santralı</figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <!-- Rooftop -->
+                <div class="project-card-modern">
+                    <div class="project-header">
+                        <div class="project-badges">
+                            <span class="project-badge badge-design">Tasarım</span>
+                            <span class="project-badge badge-hvac">İklimlendirme</span>
+                        </div>
+                        <h2>Rooftop Paket Klima Ünitesi</h2>
+                    </div>
+                    
+                    <p class="project-description">Endüstriyel klima sistemi için rooftop ünitesi tasarımı. Tüm mekanik bileşenlerin entegrasyonu ve optimizasyonu.</p>
+
+                    <div class="project-media-grid">
+                        <figure class="project-media">
+                            <img src="rooftop-solidworks.jpg" 
+                                 loading="lazy" 
+                                 alt="Rooftop paket klima SolidWorks 3D tasarımı - Modüler tasarım, fan ünitesi, hava işleme bölümü">
+                            <figcaption>SolidWorks 3D Tasarım – Rooftop paket klima montaj modeli</figcaption>
+                        </figure>
+                        <figure class="project-media">
+                            <img src="rooftop-final.jpg" 
+                                 loading="lazy" 
+                                 alt="Point marka rooftop paket klima ünitesi - Beyaz kasa, perforeli paneller, üst fan">
+                            <figcaption>Üretilmiş Ürün – Rooftop Paket Klima Ünitesi</figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <!-- Other Designs -->
+                <div class="project-card-modern">
+                    <div class="project-header">
+                        <div class="project-badges">
+                            <span class="project-badge badge-design">Tasarım</span>
+                            <span class="project-badge badge-hvac">İklimlendirme</span>
+                        </div>
+                        <h2>Diğer Tasarımlar</h2>
+                    </div>
+                    
+                    <p class="project-description">Yukarıdaki projelere ek olarak gerçekleştirilen SolidWorks tasarım çalışmaları:</p>
+
+                    <div class="other-designs-list">
+                        <div class="design-item">
+                            <span class="design-icon">🔷</span>
+                            <span class="design-name">Hücreli Aspiratör</span>
+                        </div>
+                        <div class="design-item">
+                            <span class="design-icon">🔷</span>
+                            <span class="design-name">Jet Fan Sistemleri</span>
+                        </div>
+                        <div class="design-item">
+                            <span class="design-icon">🔷</span>
+                            <span class="design-name">Aksiyel Fanlar</span>
+                        </div>
+                        <div class="design-item">
+                            <span class="design-icon">🔷</span>
+                            <span class="design-name">Isı Geri Kazanım Üniteleri</span>
+                        </div>
+                        <div class="design-item">
+                            <span class="design-icon">🔷</span>
+                            <span class="design-name">HVAC Bileşenleri</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Benimle Çalışmak İster misiniz?</h2>
+                <p class="cta-subtitle">CFD analizi veya mekanik tasarım projeleri için iletişime geçin</p>
+                <a href="contact.html" class="btn btn-primary btn-large">
+                    <span>İletişime Geç</span>
+                    <span class="btn-icon">→</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3 class="footer-title">Cenk Altınay</h3>
+                    <p class="footer-text">Ar-Ge ve Tasarım Mühendisi</p>
+                    <p class="footer-text">CFD Analizi | SolidWorks Tasarım</p>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-heading">Hızlı Linkler</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">Hakkımda</a></li>
+                        <li><a href="portfolio.html">Projeler</a></li>
+                        <li><a href="contact.html">İletişim</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-heading">Bağlantılar</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://www.linkedin.com/in/cenk-altinay/" target="_blank">LinkedIn Profilim</a></li>
+                        <li><a href="mailto:cenk.altinay@gmail.com">E-posta</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Cenk Altınay. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Tab Switching Script -->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active from all tabs and contents
+                document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+                document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+                
+                // Add active to clicked tab and corresponding content
+                btn.classList.add('active');
+                const tabId = btn.dataset.tab;
+                document.getElementById(`tab-${tabId}`).classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>

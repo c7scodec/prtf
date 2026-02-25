@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cenk Altınay ile iletişime geçin">
+    <title>İletişim | Cenk Altınay</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>Cenk Altınay</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="about.html">Hakkımda</a></li>
+                <li><a href="portfolio.html">Projeler</a></li>
+                <li><a href="contact.html" class="active">İletişim</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="hero" style="padding: 8rem 0 6rem;">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title" style="font-size: 4rem;">
+                    <span class="gradient-text">İLETİŞİM</span>
+                </h1>
+                <p class="hero-subtitle">Benimle iletişime geçin</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="services-section">
+        <div class="container">
+            
+            <!-- Contact Grid -->
+            <div class="contact-grid-modern">
+                
+                <!-- Contact Info -->
+                <div class="contact-info-modern">
+                    <h2>İletişim Bilgileri</h2>
+                    <p>CFD analizi, mekanik tasarım veya iş birliği fırsatları hakkında benimle iletişime geçebilirsiniz.</p>
+                    
+                    <div class="contact-card-modern">
+                        <div class="contact-card-icon">📧</div>
+                        <div>
+                            <h3>E-posta</h3>
+                            <a href="mailto:cenk.altinay@gmail.com">cenk.altinay@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-card-modern">
+                        <div class="contact-card-icon">💼</div>
+                        <div>
+                            <h3>LinkedIn</h3>
+                            <a href="https://www.linkedin.com/in/cenk-altinay/" target="_blank">linkedin.com/in/cenk-altinay</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-card-modern">
+                        <div class="contact-card-icon">📍</div>
+                        <div>
+                            <h3>Lokasyon</h3>
+                            <p>Ankara, Türkiye</p>
+                        </div>
+                    </div>
+
+                    <!-- CV Download Section -->
+                    <div class="cv-download-card">
+                        <div class="cv-icon">📄</div>
+                        <div class="cv-content">
+                            <h3>Özgeçmişimi İndirin</h3>
+                            <p>Detaylı CV'mi PDF formatında indirebilirsiniz</p>
+                            <a href="CENK_ALTINAY_CV.pdf" download class="btn btn-primary" style="margin-top: 1rem;">
+                                <span>CV İndir (PDF)</span>
+                                <span class="btn-icon">↓</span>
+                            </a>
+                            <p class="cv-note">PDF formatında güncel CV dosyası</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <h2>Mesaj Gönderin</h2>
+                    <p class="form-subtitle">Proje teklifi veya iş birliği için mesaj bırakabilirsiniz.</p>
+                    
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Ad Soyad <span class="required">*</span></label>
+                            <input type="text" id="name" name="name" class="form-input" required placeholder="Adınız ve soyadınız">
+                        </div>
+
+                        <div class="form-grid-2">
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email <span class="required">*</span></label>
+                                <input type="email" id="email" name="email" class="form-input" required placeholder="ornek@email.com">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone" class="form-label">Telefon</label>
+                                <input type="tel" id="phone" name="phone" class="form-input" placeholder="+90 5XX XXX XX XX">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="company" class="form-label">Şirket/Kurum</label>
+                            <input type="text" id="company" name="company" class="form-input" placeholder="Şirket veya kurum adı (opsiyonel)">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Konu</label>
+                            <select id="subject" name="subject" class="form-select">
+                                <option value="">Seçiniz...</option>
+                                <option value="cfd">CFD Analizi</option>
+                                <option value="design">Mekanik Tasarım</option>
+                                <option value="consult">Danışmanlık</option>
+                                <option value="job">İş Teklifi</option>
+                                <option value="other">Diğer</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message" class="form-label">Mesajınız <span class="required">*</span></label>
+                            <textarea id="message" name="message" class="form-textarea" required placeholder="Projeniz veya iş birliği teklifiniz hakkında kısaca bilgi verin..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">
+                            <span>Mesajı Gönder</span>
+                            <span class="btn-icon">→</span>
+                        </button>
+                    </form>
+
+                    <p class="form-note">
+                        <strong>Not:</strong> Form şu anda demo amaçlıdır. Aktif hale getirmek için bir form arka uç servisi (FormSpree, Netlify Forms, vb.) entegre edilmelidir.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3 class="footer-title">Cenk Altınay</h3>
+                    <p class="footer-text">Ar-Ge ve Tasarım Mühendisi</p>
+                    <p class="footer-text">CFD Analizi | SolidWorks Tasarım</p>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-heading">Hızlı Linkler</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">Hakkımda</a></li>
+                        <li><a href="portfolio.html">Projeler</a></li>
+                        <li><a href="contact.html">İletişim</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-heading">Bağlantılar</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://www.linkedin.com/in/cenk-altinay/" target="_blank">LinkedIn Profilim</a></li>
+                        <li><a href="mailto:cenk.altinay@gmail.com">E-posta</a></li>
+                    </ul>
+                </div>
+            </div>
+            
